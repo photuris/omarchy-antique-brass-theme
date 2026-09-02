@@ -7,6 +7,8 @@ Brass coral `#CC785C`.
 
 ![Antique Brass preview](preview.png)
 
+![Antique Brass wallpaper](backgrounds.jpg)
+
 ## Install
 
 ```bash
