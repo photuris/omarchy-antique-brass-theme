@@ -22,8 +22,11 @@ hyprctl configerrors
 ## preview.png
 
 1800x1012 (matches stock themes), produced by staging an empty
-workspace with foot+neovim (left), foot+btop (top right), and Nautilus
-(bottom right), screenshotting the output with `grim`, and scaling with
+workspace as a 2x2 grid: cliamp (top left), foot+btop (top right),
+foot+neovim (bottom left), and quickshell-files
+(`quickshell -p ../quickshell-files/shell.qml`, bottom right),
+screenshotting the output with `grim`, and scaling with
 `magick -resize 1800x1012!`. Keep personal data out of the shot: run
-btop with a config showing only cpu/mem/disks boxes and point Nautilus
-at a staged directory, not the real home.
+btop with a config showing only cpu/mem boxes, and run quickshell-files
+under `bwrap` with a staged directory bind-mounted over `$HOME` so the
+breadcrumb reads as home without exposing the real one.
